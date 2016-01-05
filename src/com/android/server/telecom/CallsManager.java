@@ -186,7 +186,7 @@ public class CallsManager extends Call.ListenerBase implements VideoProviderProx
             PhoneAccountRegistrar phoneAccountRegistrar,
             HeadsetMediaButtonFactory headsetMediaButtonFactory,
             ProximitySensorManagerFactory proximitySensorManagerFactory,
-            InCallWakeLockControllerFactory inCallWakeLockControllerFactory),
+            InCallWakeLockControllerFactory inCallWakeLockControllerFactory,
             ViceNotifier viceNotifier) {
         mContext = context;
         mLock = lock;

@@ -68,7 +68,6 @@ public final class TelecomSystem {
     private final TelecomBroadcastIntentProcessor mTelecomBroadcastIntentProcessor;
     private final TelecomServiceImpl mTelecomServiceImpl;
     private final ContactsAsyncHelper mContactsAsyncHelper;
-    private final CallInfoProvider mCallInfoProvider;
 
     private final ViceNotifier mViceNotifier;
 
